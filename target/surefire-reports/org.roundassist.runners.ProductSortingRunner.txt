@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.roundassist.runners.ProductSortingRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.652 s <<< FAILURE! - in org.roundassist.runners.ProductSortingRunner
+Sort products by price #1(Products sorting)  Time elapsed: 14.575 s  <<< FAILURE!
+java.lang.AssertionError: 
+Product prices are not ordered correctly
+Expected: <[5.0, 65.0, 140.0]>
+     but: was <[140.0, 65.0, 5.0]>
+
