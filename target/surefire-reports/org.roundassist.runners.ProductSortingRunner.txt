@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.roundassist.runners.ProductSortingRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.652 s <<< FAILURE! - in org.roundassist.runners.ProductSortingRunner
-Sort products by price #1(Products sorting)  Time elapsed: 14.575 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.002 s <<< FAILURE! - in org.roundassist.runners.ProductSortingRunner
+Sort products by price #1(Products sorting)  Time elapsed: 24.773 s  <<< FAILURE!
 java.lang.AssertionError: 
 Product prices are not ordered correctly
 Expected: <[5.0, 65.0, 140.0]>
