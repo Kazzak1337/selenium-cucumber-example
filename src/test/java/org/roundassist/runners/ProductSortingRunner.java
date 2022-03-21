@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(
-        plugin = {"pretty", "html:target/cucumber.html", "json:target/product-sorting.json"},
+        plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber/product-sorting.json"},
         glue = {"org.roundassist"},
         features = {"src/test/resources/features/product-sorting.feature"}
 )
